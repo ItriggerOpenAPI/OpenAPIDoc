@@ -6,12 +6,12 @@ description: '最后更新于：2019-06-12 18:44:06'
 
 ### 接口描述
 
-注册会员，通过此接口完成多渠道的会员注册功能
+修改会员信息，需要修改哪些字段，就传哪些字段
 
 ### 接口地址
 
 ```text
-https://gateway-mb-dev.itrigger.cn/itrigger-bff/v2/open/api/member/register?accessToken=ACCESSTOKEN
+https://gateway-dev.itrigger.cn/itrigger-bff/v2/open/api/member/modify?accessToken=ACCESSTOKEN
 ```
 
 ### 请求方式
@@ -22,19 +22,14 @@ POST
 
 ```text
 {
-  "address": "西二旗软件园云广场",
-  "birthday": "2019-07-30",
-  "brandId": 1,
-  "channel": "16",
+  "address": "云广场D座南门",
+  "birthDay": "1993-09-12",
   "city": "北京",
-  "county": "昌平区",
+  "county": "海淀区",
   "gender": "male",
-  "headpic": "www.baidu.com",
-  "identity": "23444444123",
   "mobile": "18899888899",
-  "province": "北京",
-  "realName": "小伙伴",
-  "storeNo": "99"
+  "province": "北京市",
+  "realName": "杜代亮"
 }
 ```
 
@@ -43,10 +38,8 @@ POST
 | 参数名称 | 参数类型 | 是否必须 | 参数说明 |
 | :--- | :--- | :--- | :--- |
 | mobile | String | 是 | 手机号 |
-| channel | String | 是 | 注册渠道 |
 | address | String | 否 | 详细地址 |
 | birthDay | String | 否 | 生日：2019-01-02 |
-| channelId | String | 否 | 渠道标识 |
 | city | String | 否 | 城市 |
 | county | String | 否 | 郡县 |
 | gender | String | 否 | 性别 male female |
@@ -54,8 +47,6 @@ POST
 | identity | String | 否 | 身份证 |
 | province | String | 否 | 省份 |
 | realName | String | 否 | 姓名 |
-| brandId | Integer | 否 | 品牌id, 与门店编号必须有一个存在 |
-| storeNo | String | 否 | 门店编号，与brandId必须有一个存在 |
 
 ### 返回数据示例
 
