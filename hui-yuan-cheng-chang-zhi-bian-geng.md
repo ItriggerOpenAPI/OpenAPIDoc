@@ -2,16 +2,16 @@
 description: '最后更新于：2019-06-12 18:44:06'
 ---
 
-# 会员积分变更
+# 会员成长值变更
 
 ### 接口描述
 
-主动调用该接口，更改会员剩余积分
+主动调用该接口，更改会员成长值，等级有可能随着成长值的变化而变化
 
 ### 接口地址
 
 ```text
-https://gateway-dev.itrigger.cn/itrigger-bff/v2/open/api/member/point/modify?accessToken=ACCESSTOKEN
+https://gateway-dev.itrigger.cn/itrigger-bff/v2/open/api/member/growth/modify?accessToken=ACCESSTOKEN
 ```
 
 ### 请求方式
@@ -23,7 +23,7 @@ POST
 ```text
 {
   "changeDesc": "后台手动增加",
-  "changePoint": 188,
+  "changeGrowth": 10,
   "changeTime": "2019-09-09 12:23",
   "effectiveTime": "2019-09-15",
   "invalidTime": "2019-09-25",
@@ -40,7 +40,7 @@ POST
 | :--- | :--- | :--- | :--- |
 | mobile | String | 是 | 手机号 |
 | changeDesc | String | 是 | 变更原因 |
-| changePoint | String | 否 | 变更积分 |
+| changeGrowth | String | 否 | 变更成长值数量 |
 | changeTime | String | 否 | 变更时间：2019-01-02 |
 | effectiveTime | String | 否 | 生效时间 |
 | invalidTime | String | 否 | 失效时间 |
