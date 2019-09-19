@@ -24,7 +24,7 @@ POST
 {
   "mobile": "18899888899",
   "channel": "2",
-  "channelId": "这里填有效的微信openId"
+  "channelId": "这里填渠道中有效的唯一识别ID"
 }
 ```
 
