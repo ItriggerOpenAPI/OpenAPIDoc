@@ -1,6 +1,8 @@
 # Table of contents
 
 * [开始接入](README.md)
+* [全局返回状态码说明](quan-ju-fan-hui-zhuang-tai-ma-shuo-ming.md)
+* [会员注册渠道说明](hui-yuan-zhu-ce-qu-dao-shuo-ming.md)
 
 ## 会员
 
@@ -12,7 +14,6 @@
 * [会员积分流水查询](hui-yuan/hui-yuan-ji-fen-liu-shui.md)
 * [会员积分变更](hui-yuan/hui-yuan-ji-fen-bian-geng.md)
 * [会员成长值变更](hui-yuan/hui-yuan-cheng-chang-zhi-bian-geng.md)
-* [全局返回状态码说明](hui-yuan/quan-ju-fan-hui-zhuang-tai-ma-shuo-ming.md)
 
 ## 优惠券
 
