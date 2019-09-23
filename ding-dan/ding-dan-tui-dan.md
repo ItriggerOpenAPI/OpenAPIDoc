@@ -1,13 +1,13 @@
-# 订单创建/更新
+# 订单退单
 
 ### 接口描述
 
-完成订单的新建和更新操作
+完成订单的退单操作
 
 ### 接口地址
 
 ```text
-https://gateway-dev.itrigger.cn/itrigger-bff/v2/open/api/order/platform/trades?accessToken=ACCESSTOKEN
+https://gateway-dev.itrigger.cn/itrigger-bff/v2/open/api/order/platform/refunds?accessToken=ACCESSTOKEN
 ```
 
 ### 请求方式
@@ -32,10 +32,11 @@ POST
 
 | 参数名称 | 参数类型 | 是否必须 | 参数说明 |
 | :--- | :--- | :--- | :--- |
+| id | Long | 是 | id |
 | platformCode | String | 是 | 平台code |
-| platformTradeCode | String | 是 | 平台订单编码 |
+| platformRefundCode | String | 是 | 原始退款单号 |
 | shopName | String | 是 | 店铺名称 |
-| originalContent | String | 是 | 订单数据json |
+| refundContent | String | 是 | 原始订单数据json |
 | buyerNick | String | 否 | 买家昵称 |
 | sellerNick | String | 否 | 卖家昵称 |
 | createTime | String | 否 | 订单创建时间 |
