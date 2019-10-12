@@ -32,3 +32,7 @@
 
 * [商品创建/更新](shang-pin/untitled.md)
 
+## 数据化营销API
+
+* [自定义事件触发](shu-ju-hua-ying-xiao-api/zi-ding-yi-shi-jian-chu-fa.md)
+

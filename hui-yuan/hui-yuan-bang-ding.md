@@ -23,6 +23,7 @@ POST
 ```text
 {
   "mobile": "18899888899",
+  "storeNo": "1159374785466208256",
   "channel": "2",
   "channelId": "这里填渠道中有效的唯一识别ID"
 }
@@ -33,6 +34,7 @@ POST
 | 参数名称 | 参数类型 | 是否必须 | 参数说明 |
 | :--- | :--- | :--- | :--- |
 | mobile | String | 是 | 手机号 |
+| storeNo | String | 是 | 门店编号 |
 | channel | String | 是 | 渠道类型 |
 | channelId | String | 是 | 渠道标示 |
 

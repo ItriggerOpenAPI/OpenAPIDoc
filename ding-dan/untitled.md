@@ -1,3 +1,7 @@
+---
+description: '最后更新于：2019-09-20 15:44:06'
+---
+
 # 订单创建/更新
 
 ### 接口描述
@@ -35,7 +39,7 @@ POST
 | platformCode | String | 是 | 平台code |
 | platformTradeCode | String | 是 | 平台订单编码 |
 | shopName | String | 是 | 店铺名称 |
-| originalContent | String | 是 | 订单数据json |
+| originalContent | String | 是 | platformCode对应平台的订单格式，比如天猫平台订单内容为：{"address":"杭州滨江聚光B-17","brandId":1,"buyerMemo":"","buyerNick":"","consignee":"李强","mobile":"13720534766","orderList":\[{"brandId":1,"goodsCount":1,"payment":"999999","platformOrderCode":"1234567890","platformProductCode":"123123","productCode":"123123","productName":"鲜花","productSkuCode":"1231234","productSkuName":"白色鲜花","status":10,"tenantId":12818}\],"orderTime":"","payTime":"2019-08-13 00:50:50","payment":"99999","platformCode":"pos","platformTradeCode":"123456789","shopName":"","status":10,"storeId":1,"storeName":"测试门店","tenantId":12818,"totalAmount":"99999","type":1} |
 | buyerNick | String | 否 | 买家昵称 |
 | sellerNick | String | 否 | 卖家昵称 |
 | createTime | String | 否 | 订单创建时间 |

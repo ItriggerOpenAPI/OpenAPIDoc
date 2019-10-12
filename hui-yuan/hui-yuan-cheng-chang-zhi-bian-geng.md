@@ -24,6 +24,7 @@ POST
 {
   "changeDesc": "后台手动增加",
   "changeGrowth": 10,
+  "storeNo": "1159374785466208256",
   "changeTime": "2019-09-09 12:23",
   "effectiveTime": "2019-09-15",
   "invalidTime": "2019-09-25",
@@ -39,6 +40,7 @@ POST
 | 参数名称 | 参数类型 | 是否必须 | 参数说明 |
 | :--- | :--- | :--- | :--- |
 | mobile | String | 是 | 手机号 |
+| storeNo | String | 是 | 门店编号 |
 | changeDesc | String | 是 | 变更原因 |
 | changeGrowth | String | 否 | 变更成长值数量 |
 | changeTime | String | 否 | 变更时间：2019-01-02 |

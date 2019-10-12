@@ -22,12 +22,13 @@ POST
 
 ```text
 {
+  "mobile": "18899888899",
+  "storeNo": "1159374785466208256",
   "address": "云广场D座南门",
   "birthDay": "1993-09-12",
   "city": "北京",
   "county": "海淀区",
   "gender": "male",
-  "mobile": "18899888899",
   "province": "北京市",
   "realName": "杜代亮"
 }
@@ -38,6 +39,7 @@ POST
 | 参数名称 | 参数类型 | 是否必须 | 参数说明 |
 | :--- | :--- | :--- | :--- |
 | mobile | String | 是 | 手机号 |
+| storeNo | String | 是 | 门店编号 |
 | address | String | 否 | 详细地址 |
 | birthDay | String | 否 | 生日：2019-01-02 |
 | city | String | 否 | 城市 |

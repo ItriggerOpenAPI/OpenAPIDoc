@@ -18,6 +18,8 @@ POST
 
 ```text
 {
+  "mobile": "18899888899",
+  "storeNo": "1159374785466208256"
   "address": "西二旗软件园云广场",
   "birthday": "2019-07-30",
   "brandId": 1,
@@ -27,10 +29,8 @@ POST
   "gender": "male",
   "headpic": "www.baidu.com",
   "identity": "23444444123",
-  "mobile": "18899888899",
   "province": "北京",
-  "realName": "小伙伴",
-  "storeNo": "99"
+  "realName": "小伙伴"
 }
 ```
 
@@ -39,6 +39,7 @@ POST
 | 参数名称 | 参数类型 | 是否必须 | 参数说明 |
 | :--- | :--- | :--- | :--- |
 | mobile | String | 是 | 手机号 |
+| storeNo | String | 是 | 门店编号 |
 | channel | String | 是 | 注册渠道 |
 | address | String | 否 | 详细地址 |
 | birthDay | String | 否 | 生日：2019-01-02 |
@@ -50,8 +51,6 @@ POST
 | identity | String | 否 | 身份证 |
 | province | String | 否 | 省份 |
 | realName | String | 否 | 姓名 |
-| brandId | Integer | 否 | 品牌id, 与门店编号必须有一个存在 |
-| storeNo | String | 否 | 门店编号，与brandId必须有一个存在 |
 
 ### 返回数据示例
 

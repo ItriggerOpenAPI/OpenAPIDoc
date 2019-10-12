@@ -11,7 +11,7 @@ description: '最后更新于：2019-06-12 18:44:06'
 ### 接口地址
 
 ```text
-https://gateway-dev.itrigger.cn/itrigger-bff/v2/open/api/member/point/list?accessToken=ACCESSTOKEN&mobile=MOBILE&pageNum=PAGENUM&pageSize=PAGESIZE
+https://gateway-dev.itrigger.cn/itrigger-bff/v2/open/api/member/point/list?accessToken=ACCESSTOKEN&mobile=MOBILE&storeNo=STORENO&pageNum=PAGENUM&pageSize=PAGESIZE
 ```
 
 ### 请求方式
@@ -23,6 +23,7 @@ GET
 | 参数名称 | 参数类型 | 是否必须 | 参数说明 |
 | :--- | :--- | :--- | :--- |
 | mobile | String | 是 | 手机号 |
+| storeNo | String | 是 | 门店编号 |
 | pageNum | int | 是 | 页码 |
 | pageSize | int | 是 | 页面记录数 |
 
